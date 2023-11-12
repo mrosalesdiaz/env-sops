@@ -1,2 +1,2 @@
-# env-sops
-Library for encrypt/decrypt/load environment variables using SOPS+AGE
+# sops-toolkit
+Package to help encrypt/decrypt ENV files 
