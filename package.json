@@ -1,0 +1,27 @@
+{
+  "name": "env-sops",
+  "version": "1.0.0",
+  "description": "Package to help encrypt/decrypt ENV files",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrosalesdiaz/env-sops.git"
+  },
+  "author": "mrosalesdiaz@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mrosalesdiaz/env-sops/issues"
+  },
+  "homepage": "https://github.com/mrosalesdiaz/env-sops#readme",
+  "bin": {
+    "env-encrypt": "./bin/encrypt.js",
+    "env-decrypt": "./bin/decrypt.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
