@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/mrosalesdiaz/env-sops#readme",
   "bin": {
-    "env-encrypt": "./bin/encrypt.js",
-    "env-decrypt": "./bin/decrypt.js"
+    "envencrypt": "./bin/encrypt.js",
+    "envdecrypt": "./bin/decrypt.js"
   },
   "dependencies": {
     "dotenv": "^16.3.1"
