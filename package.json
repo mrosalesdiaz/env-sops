@@ -1,6 +1,6 @@
 {
   "name": "env-sops",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package to help encrypt/decrypt ENV files",
   "main": "index.js",
   "files": [
