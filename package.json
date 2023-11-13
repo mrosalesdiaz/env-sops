@@ -1,6 +1,6 @@
 {
   "name": "env-sops",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Package to help encrypt/decrypt ENV files",
   "main": "index.js",
   "files": [
@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/mrosalesdiaz/env-sops#readme",
   "bin": {
-    "env-encrypt": "./bin/encrypt.js",
-    "env-decrypt": "./bin/decrypt.js"
+    "envencrypt": "./bin/encrypt.js",
+    "envdecrypt": "./bin/decrypt.js"
   },
   "dependencies": {
     "dotenv": "^16.3.1"
