@@ -11,6 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/mrosalesdiaz/env-sops.git"
   },
+  "keywords": [
+    "sops",
+    "envs",
+    "secrets",
+    "nodejs",
+    "github",
+    "configurations"
+  ],
   "author": "mrosalesdiaz@gmail.com",
   "license": "ISC",
   "bugs": {

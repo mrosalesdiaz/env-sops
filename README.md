@@ -38,14 +38,12 @@ DB_PASS=s1mpl3
 
 3. Add the Scripts for Encrypting and Decrypting Environment Variables file into package.json
 ``` JSON
-(...)
 "type":"module",
 "scripts": {
     "start": "node main.js",
     "sops:encrypt:dev": "envencrypt encrypted-dev.env",
     "sops:decrypt:dev": "envdecrypt encrypted-dev.env ./"
 },
-(...)
 ```
 
 4. Run Encrypt Script
@@ -125,7 +123,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 Initial Version
 
 ## Support/Contact
-Provide ways for users to seek support, report vulnerabilities, or contribute to discussions related to the package's security.
+[Issues](https://github.com/mrosalesdiaz/env-sops/issues)
 
 ## Acknowledgements
 This project utilizes the following third-party tools and libraries:
