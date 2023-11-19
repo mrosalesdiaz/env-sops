@@ -12,7 +12,7 @@
     "url": "git+https://github.com/mrosalesdiaz/env-sops.git"
   },
   "author": "mrosalesdiaz@gmail.com",
-  "license": "Apache-2.0",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/mrosalesdiaz/env-sops/issues"
   },
